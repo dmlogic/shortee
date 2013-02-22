@@ -1,0 +1,67 @@
+.offscreen {
+	position:absolute;
+	top:-10000px;
+	left:-10000px;
+}
+
+#url_wrapper {
+	background:#d0d9e1;
+	border:1px solid #b9c5cf;
+	border-bottom:none;
+	padding:4px;
+	min-height:45px;
+}
+
+#long_url_choices {
+	border-left:1px solid #b9c5cf;
+	margin-bottom:20px;
+	height:24px;
+}
+
+#long_url_choices li {
+	display:block;
+	float:left;
+	margin:0;
+	padding:4px 10px;
+	cursor:pointer;
+	border:1px solid #b9c5cf;
+	border-left:none;
+	border-top:none;
+}
+
+#long_url_choices li.current {
+	background:#d0d9e1;
+}
+
+#templates {
+	display:none;
+}
+
+button.shortee-button {
+	cursor:pointer;
+}
+
+#short_url, #final_url input {
+	width:200px;
+}
+
+input.shortee-input, select.shortee-input {
+	padding:4px;
+}
+
+input.shortee-input {
+	font-size:16px;
+}
+
+#shortee_feedback {
+	display:none;
+}
+
+#shortee_share {
+	height:40px;
+	margin:20px 0;
+}
+
+.pageContents form{
+	margin-bottom:20px;
+}
